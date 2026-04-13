@@ -9,12 +9,12 @@ const AppModel = {
   // ── BIRTHDAY CONFIG ──────────────────────────────────────────────
   birthday: {
     name: 'Muhit',
-    age: 20,
-    title: 'HAPPY BIRTHDAY',
-    subtitleLine1: 'WELCOME TO THE PITS, OLD TIMER',
-    subtitleLine2: "YOU'VE COMPLETED 20 LAPS AROUND THE SUN",
-    footerText: 'MADE WITH \u25A0 PIXELS \u25A0 AND \u25A0 PURE \u25A0 LOVE',
-    footerSub: '&copy; BIRTHDAY INC. \u2014 HAPPY 20TH MUHIT',
+    age: 19,
+    title: 'HAPPY BIRTHDAY KIDDO!',
+    subtitleLine1: 'WELCOME TO THE PITS, LIL BRO, ONE MORE YEAR TILL UNC STATUS!',
+    subtitleLine2: "YOU'VE COMPLETED 19 LAPS AROUND THE SUN",
+    footerText: 'MADE WITH \u25A0 DUMBLUCK \u25A0 AND \u25A0 PURE \u25A0 LOVE',
+    footerSub: '&copy; BIRTHDAY INC. \u2014 HAPPY 19TH MUHIT',
   },
 
   // ── LETTER ───────────────────────────────────────────────────────
