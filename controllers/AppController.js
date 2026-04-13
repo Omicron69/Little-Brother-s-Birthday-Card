@@ -40,7 +40,7 @@ function setupCursor() {
 
 // ── PAGE BUILD ────────────────────────────────────────────────────────────────
 function buildPage() {
-  const { birthday, letter, youtube, game, pixelCar, stars } = AppModel;
+  const { birthday, letter, youtube, game, game2, pixelCar, stars } = AppModel;
 
   // Stars
   document.body.prepend(buildStarField(stars.count));
@@ -72,7 +72,7 @@ function buildPage() {
   content.appendChild(giftSection);
 
   // Hidden bottom (revealed on gift open)
-  const bottom = buildBottomSection(youtube, game);
+  const bottom = buildBottomSection(youtube, game, game2);
   content.appendChild(bottom);
 
   // Footer

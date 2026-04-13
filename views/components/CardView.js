@@ -179,7 +179,7 @@ export function buildGiftBox() {
 }
 
 // ── BOTTOM SECTION (hidden until gift opened) ─────────────────────────────────
-export function buildBottomSection(youtube, game) {
+export function buildBottomSection(youtube, game, game2) {
   const section = document.createElement('div');
   section.id = 'bottom-section';
 
@@ -233,6 +233,29 @@ export function buildBottomSection(youtube, game) {
   gameSec.appendChild(btn);
 
   section.appendChild(gameSec);
+
+  // Game 2 link block
+  if (game2) {
+    section.appendChild(buildDivider());
+    const gameSec2 = document.createElement('div');
+    gameSec2.className = 'game-link-section';
+
+    const headline2 = document.createElement('div');
+    headline2.className = 'game-headline';
+    headline2.innerHTML =
+      game2.headline.replace(/\n/g, '<br>') +
+      `<span class="dim">${game2.subNote}</span>`;
+    gameSec2.appendChild(headline2);
+
+    const btn2 = document.createElement('a');
+    btn2.className = 'game-btn';
+    btn2.href = game2.href;
+    btn2.target = '_blank';
+    btn2.textContent = game2.btnLabel;
+    gameSec2.appendChild(btn2);
+
+    section.appendChild(gameSec2);
+  }
 
   return section;
 }
