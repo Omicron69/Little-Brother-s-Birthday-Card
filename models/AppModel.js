@@ -27,10 +27,10 @@ const AppModel = {
           "Sorry man, I am really shit at writing these things\n" +
           'so bear with me \u2014 but here it is.',
       },
-      { red: '20th birthday, old man.', prefix: 'Happy ' },
+      { red: '19th birthday, littol one.', prefix: 'Happy Birthday' },
       {
         text:
-          "Twenty years on this planet and you're still\n" +
+          "Nineteen years on this planet and you're still\n" +
           "somehow going. That's actually impressive ngl.",
       },
       {
