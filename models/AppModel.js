@@ -49,7 +49,7 @@ const AppModel = {
       { text: 'Now stop reading and ', red: 'open the box.' },
     ],
     sign:
-      '\u2014 Your mate who couldn\u2019t afford a real gift\nbut spent way too long making this instead \u25A0',
+      '\u2014 Your big bro who couldn\u2019t afford a real gift\nbut hope this works sorry in ADVANCE! \u25A0',
   },
 
   // ── YOUTUBE ──────────────────────────────────────────────────────
