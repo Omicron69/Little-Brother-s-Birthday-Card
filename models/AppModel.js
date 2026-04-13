@@ -65,9 +65,16 @@ const AppModel = {
   game: {
     href: 'duck-hunt-custom.html',
     headline:
-      '\u25A0 ONE MORE THING \u25A0\n\nI ALSO MADE YOU A GAME.\nNOT MUCH \u2014 A BIT JANKY \u2014\nBUT HAVE FUN WITH IT :)',
+      '\u25A0 ONE MORE THING \u25A0\n\nI ALSO MADE YOU 2 GAMES.\nNOT MUCH \u2014 A BIT JANKY \u2014\nBUT HAVE FUN WITH IT :)',
     subNote: '[ duck hunt w/ hand tracking \u2014 yes really ]',
-    btnLabel: '\u25BA PLAY THE GAME',
+    btnLabel: '\u25BA PLAY THE GAME 1 NOW \u25BA', 
+  },
+
+  game2: {
+    href: 'fruit-ninja.html',
+    headline: '\u25A0 GAME 2 \u25A0\n\nSLICE AND DICE.',
+    subNote: '[ fruit ninja w/ hand tracking ]',
+    btnLabel: '\u25BA PLAY THE GAME 2 NOW \u25BA',
   },
 
   // ── PIXEL CAR (colour map + rows) ────────────────────────────────
