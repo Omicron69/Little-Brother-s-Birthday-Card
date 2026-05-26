@@ -17,7 +17,7 @@ const AppModel = {
     footerSub: '&copy; BIRTHDAY INC. \u2014 HAPPY 19TH MUHIT',
   },
 
-  // ── LETTER ───────────────────────────────────────────────────────
+  // ── LETTER ─────────────────────────────────────────────────────── 
   letter: {
     header: '\u25A0 TRANSMISSION INCOMING \u25A0',
     paragraphs: [
